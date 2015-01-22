@@ -1,0 +1,88 @@
+html {
+  background: rgb(254, 254, 254);
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0 0;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size:   13px;
+  min-height: 100%;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+}
+
+.header {
+  background-color: rgba(66, 132, 211, 1);
+  border-radius: 2px;
+  position: relative;
+  padding: 30px;
+}
+
+.section {
+  padding: 30px;
+}
+
+a {
+  font-size: large;
+  margin-right: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+a.active {
+  background-color: rgba(217, 233, 250, 1);
+  color: rgba(255,255,255,0.8);
+}
+
+a:hover {
+  background-color: rgba(217, 233, 250, 0.5);
+}
+
+.form {
+  width: 350px;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right; 
+}
+
+.login {
+  width: auto;
+  background-color: rgba(217, 233, 250, 1);
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 10px 10px;
+}
+
+.failed {
+  color: red;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+table, td, th
+{
+  border:1px solid rgba(22,116,215,0.97);
+}
